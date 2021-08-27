@@ -1,0 +1,160 @@
+What is function?
+A function is block of code, are used to perform certain task
+We put repeatedly done task together.
+
+Functions are two types:
+1.) Pre Defined
+2.) User Defined
+
+Why functions?
+
+Functions help us in reducing code redundancy(reuse same
+functionality)
+
+Functions make code modular (Breaking bigger problem in
+smaller chunks)
+
+Functions also provides abstractions(hide the complex
+logics).
+
+User Defined Functions:
+-------------------------
+
+#include<iostream>
+//function declaration
+void fun(void);
+
+void main(){
+	//function calling
+	fun();
+
+}
+
+//function definition
+void fun(){
+	count << "this is function";
+}
+
+
+Function in Memory :
+------------------------
+function can reside in three section of main Memory
+
+1. heap memory -- dynamic(run time) allocation
+2. stack memory -- static allocation(compile time)
+3. code memory -- whole code is copied.
+
+
+Various inputs and ouputs available to a function:
+
+Output_type function_name(input1,input2,..){}
+
+//Task write the below functions programs
+
+1. void function_name(void){};
+2. int function_name(void){};
+3. void function_name(int a, int b);
+4. int function_name(int a, int b);
+
+Function with no arguments and no return value:
+
+Function with arguments and no return value.
+
+
+function overloading:
+------------------------
+Same function capable to do different task depending on
+the input provided to it.
+An overloaded function perform, different activities 
+depending upon type of input.
+
+
+Benifits of function overloading:
+---------------------------------
+reduce code length.
+
+Program become easy to understand
+
+
+Easy to maintain the code.
+
+
+eg:
+//function overloading with different data types. 
+#include<iostream>
+void main(){
+add(3,7);
+add(4.5,6.1);
+}
+
+void add (int a, int b){
+cout << a+b;}
+
+void add (float a , float b){
+cout << a + b:
+}
+
+
+
+Function overloading with different number of arguments
+
+Drawbacks of function and inline function:
+----------------------------------------------
+
+1. It takes some time to execute.
+The solution of the above problem is to use inline function.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

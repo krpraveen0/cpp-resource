@@ -1,0 +1,2 @@
+//create a class Person with property name , age and function to show what he does.
+//create a class student by inheriting the class Person and overide the functions of the parent class.

@@ -1,0 +1,71 @@
+1. procedural Programming: list of instructions
+2. Modular Programming : functions
+Problems with modular programmings:
+data remains alive within module, so we need 
+some data to be global .
+
+For EXAmple:
+ATM application:
+--------------
+
+In large project
+1. difficult to conceptualise and modify 
+2. data and functions are separated
+
+
+In OOP :
+We try to bind the data and respective functions.
+
+
+By default access specifier is private which means
+member variables and member functions are only accessible 
+inside the class
+
+Access specifiers:
+-----------------------
+1. private[data can be accessed in the class]
+2. protected[data can be accessed in the class as well as inheriting classes]
+3. public access from anywhere
+
+Characteristics of OOP's:
+-----------------------------
+1. Class -
+	 blueprint 
+	user-defined  data type which holds its own data member and member functions.
+	helps in code reusability
+2. Encapsulation
+	binding variable and function.
+3. Polymorphism
+	having more forms
+	
+4. Inheritance : 
+	child class inherits the parent class .
+
+5. Abstraction: 
+	hiding complicated things from the user.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class vechile
+
+data members(variables)
+no of wheels
+name
+engine number
+price
+
+member function
+getDiscount() -- calculates the discount on that vechile.
+20% on price 
+

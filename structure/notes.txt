@@ -1,0 +1,12 @@
+what is structure ?
+It is used to create a complex data type.
+it used to store different heterogeneous values at a time.
+
+In another work we can also tell that structure is user defined data type which 
+can be used to store heterogeneous values at a time .
+struct Person{
+    int id;
+    string name;
+    string address;
+    float salary;
+};

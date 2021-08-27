@@ -1,0 +1,5 @@
+create an object of calss person with its attribute as 
+name 
+designation
+salary 
+and a function which calculates the tax paid by him which is 30% of the salary if the income is more than 5 lpa otherwise 0 tax.

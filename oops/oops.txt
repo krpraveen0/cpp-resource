@@ -1,0 +1,79 @@
+OOP
+-----------
+The major prupose of C++ programming was to introduce the concept of object oriented programming style in C language.
+
+Actually Object Oriented programming is a paradigm/model that provides many concepts such as data binding, data abstraction, inheritance,
+polymorphism etc.
+
+The programming language where everthing is represented as an object is known as truly object oriented programming.
+eg: smalltalk 
+
+What is object?
+Any real world entity is identified by an object OOP model.
+
+Formally we can define object as
+Any entity that has some state and behaviour is known as an object.
+for example:
+laptop , table, keyboard, fan, bike etc 
+object can be physical as well as logical.
+
+Class :
+The blueprint with which we can create an object is called class.
+The logical design of an object is called class.
+Actually Class is  a template for which objects are created.
+It can have fields, methods , constructor etc.
+
+syntax to create a class:
+----------------------
+class <class-name>{
+    state
+    methods
+    constructor
+}
+example:
+let us create a student class
+class Student{
+    public:
+    //field or data member
+    int id;
+    float fee;
+    String name;
+}
+
+
+How to create an object from a given class
+
+Student s1;
+s1.id = 101;
+s1.name="raju";
+
+
+create a class employee 
+emp_id
+emp_name
+emp_role
+emp_dept
+emp_salary
+total_experience
+getPromotion(){
+    if experience is more than 2 years promote it
+}
+
+create an object employees --> QA , Developer
+
+create a calculator class which has 
+num1 
+num2
+add()
+subtract()
+multiply()
+divide()
+
+display()-- to display all the results.
+
+create an object and perform all the operations
+
+
+//write a student class which store studnet name , roll_no , subject marks, attendance , also calculate the passing percent of that student 
+which dependes on his/her attendance 
+if a student is present more than 75% than than student is pass otherwise he/she is fail.

@@ -1,0 +1,59 @@
+Introduction:
+--------------------
+how to approach for a solution:
+---------------------------------
+1.) analyse our problem.
+2.) Breakdown the problem in smaller parts.
+3.) write down solution on paper.
+4.) Verify our solution by testing with the couple of examples.
+5.) Start writing the code.
+
+Flow Charts:
+Diagrammatic representation of a solution to a given problem
+Allow us to break down any process into smaller steps and display them in visually pleasing way.
+FlowChart component:
+Start-stop(terminator)  compnonent.
+Input-output component.(parallelogram shape)
+Process (rectangle)
+Decision(diamond shape)
+Program to add two numbers
+Program to print first n numbers.
+Find the largest number from a given list of numbers
+Check for the prime number
+
+Q. write a program to add two numbers.
+--------------------------------------
+1. Analysis
+    what is requirements.
+    what we need 
+    no of variables needed.
+    is there any initial values 
+    should i have to take the values from the user?
+    what operation i need to perform
+    what need to be displayed.
+
+2. Breaking our problem into smaller part:
+add two numbers
+1. take first number as an input 
+2. take second number as an input 
+3. perform operation
+4. store the result.
+5. display the output
+
+Q. write a program to check whether the input given by the use is even or odd.
+1. take first number as an input 
+2. take second number as an input 
+3. perform operation
+4. take decesion
+5. store the result.
+6. display the output
+
+Q. Print first n numbers given by the user.
+1. take first number as an input 
+2. take second number as an input 
+3. perform operation
+4. take decesion
+5. store the result.
+6. display the output
+7. repeat
+
